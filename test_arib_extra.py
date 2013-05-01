@@ -10,18 +10,20 @@
 from Tkinter import *
 import tkFont
 
-which = 0
-
 texts = ['AaGg', 
 	u'\ue0fe\ue2f4', 
 	u'\u3402\u8a79']
 
-fontfamilies = ('WadaLabMaruGo2004ARIB', 'Times New Roman')
+which = 0
+
+fontfamilies = ('WadaLabMaruGo2004ARIB', 
+		'Times New Roman',
+		'Ubuntu')
 
 def switchFontFamily():
 	global which 
 	which += 1
-	which %= 2
+	which %= len(fontfamilies) 
 	print which, fontfamilies[which]
 	labelfont = (fontfamilies[which], 32, 'normal')
 	children = tk.winfo_children()
