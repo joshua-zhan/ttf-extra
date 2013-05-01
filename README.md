@@ -8,4 +8,4 @@ for ARIB extra chars
 3. kochi-gothic.ttf is a free font on my Ubuntu 13.04. Just for comparison
 4. DroidSansFallback.ttf is from Android. For comparing and exendting. Our font will base on this family (?)
 5. TODO： use something like Droid Sans MONO ?
-6. test_wlc.html relies on HTML Browser to display some ARIB extra chars.
+6. test_wlc.html relies on HTML Browser to display some ARIB extra chars. And test_glyph is what you are supposed to see.
