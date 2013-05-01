@@ -1,6 +1,10 @@
 #/usr/bin/python
 
-# usage: test_arib_extra.py font-file 
+# usage: just run it
+#
+# tested on Ubuntu 13.04
+# python2.7 with python-tk module
+#
 # 2013-05-01/joshua zhan
 
 from Tkinter import *
@@ -18,7 +22,7 @@ def switchFontFamily():
 	global which 
 	which += 1
 	which %= 2
-	#print which, fontfamilies[which]
+	print which, fontfamilies[which]
 	labelfont = (fontfamilies[which], 32, 'normal')
 	children = tk.winfo_children()
 	for w in children:
