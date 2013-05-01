@@ -17,6 +17,7 @@ texts = ['AaGg',
 which = 0
 
 fontfamilies = ('WadaLabMaruGo2004ARIB', 
+		'zi',
 		'Times New Roman',
 		'Ubuntu')
 
